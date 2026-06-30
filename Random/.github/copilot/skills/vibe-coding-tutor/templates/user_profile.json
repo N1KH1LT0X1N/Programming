@@ -1,0 +1,10 @@
+{
+    "level": "beginner",
+    "elo_rating": 1200,
+    "knowledge_components": {},
+    "history": {
+        "total_mcqs": 0,
+        "correct": 0,
+        "incorrect": 0
+    }
+}

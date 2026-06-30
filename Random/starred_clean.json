@@ -1,0 +1,1626 @@
+﻿[
+    {
+        "Name":  "karpathy/autoresearch",
+        "Description":  "AI agents running research on single-GPU nanochat training automatically",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/karpathy/autoresearch",
+        "Stars":  25545
+    },
+    {
+        "Name":  "aakriti1318/interview_questions",
+        "Description":  "A curated collection of high-quality interview questions and answers for AI-related roles. This repository helps candidates understand how interviews differ across roles, not just memorize answers.",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/aakriti1318/interview_questions",
+        "Stars":  885
+    },
+    {
+        "Name":  "alexeygrigorev/ai-engineering-field-guide",
+        "Description":  "Research into AI engineering interview assignments, take-home challenges, and hiring practices from Q4 2025 / Q1 2026",
+        "Language":  "HTML",
+        "Topics":  "",
+        "URL":  "https://github.com/alexeygrigorev/ai-engineering-field-guide",
+        "Stars":  599
+    },
+    {
+        "Name":  "Raphire/Win11Debloat",
+        "Description":  "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+        "Language":  "PowerShell",
+        "Topics":  "automated,bloatware,bloatware-removal,cleanup,cli,debloat,debloater,interactive,optimize,powershell,powershell-script,privacy,ps1,registry-tweaks,tweaks,windows,windows-10,windows-11,windows10,windows11",
+        "URL":  "https://github.com/Raphire/Win11Debloat",
+        "Stars":  41556
+    },
+    {
+        "Name":  "VectifyAI/PageIndex",
+        "Description":  "≡ƒôæ PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+        "Language":  "Python",
+        "Topics":  "agentic-ai,agents,ai,ai-agents,context-engineering,information-retrieval,llm,rag,reasoning,retrieval,retrieval-augmented-generation,vector-database",
+        "URL":  "https://github.com/VectifyAI/PageIndex",
+        "Stars":  21223
+    },
+    {
+        "Name":  "bytebot-ai/bytebot",
+        "Description":  "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
+        "Language":  "TypeScript",
+        "Topics":  "agent,agentic-ai,agents,ai,ai-agents,ai-tools,anthropic,automation,bytebot,computer-use,computer-use-agent,cua,desktop,desktop-automation,docker,gemini,llm,mcp,openai",
+        "URL":  "https://github.com/bytebot-ai/bytebot",
+        "Stars":  10547
+    },
+    {
+        "Name":  "llmsresearch/paperbanana",
+        "Description":  "Open source implementation and extension of Google ResearchΓÇÖs PaperBanana for automated academic figures, diagrams, and research visuals, expanded to new domains like slide generation.",
+        "Language":  "Python",
+        "Topics":  "academic-diagrams,academic-research,agentic-ai,arxiv,diagram-generation,gemini,google-gemini,llm,llms,mcp,mcp-server,multiagent,neurips,paperbanana,python-ai-research-tools,research-automation,research-tools,scientific-visualization,text-to-image,vlm",
+        "URL":  "https://github.com/llmsresearch/paperbanana",
+        "Stars":  1141
+    },
+    {
+        "Name":  "cheahjs/free-llm-api-resources",
+        "Description":  "A list of free LLM inference resources accessible via API.",
+        "Language":  "Python",
+        "Topics":  "ai,claude,gemini,llama,llm,openai",
+        "URL":  "https://github.com/cheahjs/free-llm-api-resources",
+        "Stars":  15229
+    },
+    {
+        "Name":  "Pavelevich/llm-checker",
+        "Description":  "Advanced CLI tool that scans your hardware and tells you exactly which LLM or sLLM models you can run locally, with full Ollama integration.",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/Pavelevich/llm-checker",
+        "Stars":  1450
+    },
+    {
+        "Name":  "millionco/react-doctor",
+        "Description":  "Let coding agents diagnose and fix your React code",
+        "Language":  "TypeScript",
+        "Topics":  "agents,code-review,doctor,react,skill",
+        "URL":  "https://github.com/millionco/react-doctor",
+        "Stars":  5623
+    },
+    {
+        "Name":  "logancyang/obsidian-copilot",
+        "Description":  "THE Copilot in Obsidian",
+        "Language":  "TypeScript",
+        "Topics":  "ai,aiagent,chatgpt,copilot,obsidian-plugin",
+        "URL":  "https://github.com/logancyang/obsidian-copilot",
+        "Stars":  6356
+    },
+    {
+        "Name":  "e2b-dev/awesome-ai-agents",
+        "Description":  "A list of AI autonomous agents",
+        "Language":  "Unknown",
+        "Topics":  "agent,ai,artificial-intelligence,autogpt,autonomous-agents,awesome,babyagi,copilot,gpt,gpt-4,gpt-engineer,openai,python",
+        "URL":  "https://github.com/e2b-dev/awesome-ai-agents",
+        "Stars":  26379
+    },
+    {
+        "Name":  "danittech/agents_mcp_demo",
+        "Description":  "Agents MCP demo",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/danittech/agents_mcp_demo",
+        "Stars":  11
+    },
+    {
+        "Name":  "cookiecutter/cookiecutter",
+        "Description":  "A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects.",
+        "Language":  "Python",
+        "Topics":  "cookiecutter,python",
+        "URL":  "https://github.com/cookiecutter/cookiecutter",
+        "Stars":  24728
+    },
+    {
+        "Name":  "vudovn/antigravity-kit",
+        "Description":  "No description",
+        "Language":  "TypeScript",
+        "Topics":  "",
+        "URL":  "https://github.com/vudovn/antigravity-kit",
+        "Stars":  5752
+    },
+    {
+        "Name":  "OpenHands/software-agent-sdk",
+        "Description":  "A clean, modular SDK for building AI agents with OpenHands V1.",
+        "Language":  "Python",
+        "Topics":  "agent,sdk",
+        "URL":  "https://github.com/OpenHands/software-agent-sdk",
+        "Stars":  572
+    },
+    {
+        "Name":  "KeygraphHQ/shannon",
+        "Description":  "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
+        "Language":  "TypeScript",
+        "Topics":  "penetration-testing,pentesting,security-audit,security-automation,security-tools",
+        "URL":  "https://github.com/KeygraphHQ/shannon",
+        "Stars":  33170
+    },
+    {
+        "Name":  "Orchestra-Research/AI-Research-SKILLs",
+        "Description":  "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
+        "Language":  "TeX",
+        "Topics":  "ai,ai-research,claude,claude-code,claude-skills,codex,gemini,gpt-5,grpo,huggingface,machine-leanring,megatron,skills,vllm",
+        "URL":  "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+        "Stars":  4778
+    },
+    {
+        "Name":  "Saas-Starter-Kit/SAAS-Starter-Kit-Pro",
+        "Description":  "A boilerplate for building Software-as-Service (SAAS) apps with Reactjs, and Nodejs",
+        "Language":  "HTML",
+        "Topics":  "aws,boilerplate,hackathon-starter,nextjs,nodejs,react,reactjs,saas,saas-boilerplate,stripe,styled-components",
+        "URL":  "https://github.com/Saas-Starter-Kit/SAAS-Starter-Kit-Pro",
+        "Stars":  608
+    },
+    {
+        "Name":  "BerriAI/litellm",
+        "Description":  "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+        "Language":  "Python",
+        "Topics":  "ai-gateway,anthropic,azure-openai,bedrock,gateway,langchain,litellm,llm,llm-gateway,llmops,mcp-gateway,openai,openai-proxy,vertex-ai",
+        "URL":  "https://github.com/BerriAI/litellm",
+        "Stars":  38673
+    },
+    {
+        "Name":  "sheeki03/tirith",
+        "Description":  "Your browser catches homograph attacks. Your terminal doesn\u0027t. Tirith guards the gate and intercepts suspicious URLs, ANSI injection, and pipe-to-shell attacks before they execute.",
+        "Language":  "Rust",
+        "Topics":  "cli,devtools,homograph-attack,rust,security,shell,supply-chain-security,terminal,unicode,url-security",
+        "URL":  "https://github.com/sheeki03/tirith",
+        "Stars":  2006
+    },
+    {
+        "Name":  "transitive-bullshit/agentic",
+        "Description":  "Your API ΓçÆ Paid MCP. Instantly.",
+        "Language":  "TypeScript",
+        "Topics":  "agents,ai,llms,openai",
+        "URL":  "https://github.com/transitive-bullshit/agentic",
+        "Stars":  18131
+    },
+    {
+        "Name":  "mithun50/SuperGravity",
+        "Description":  "No description",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/mithun50/SuperGravity",
+        "Stars":  23
+    },
+    {
+        "Name":  "ShepAlderson/copilot-orchestra",
+        "Description":  "No description",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/ShepAlderson/copilot-orchestra",
+        "Stars":  783
+    },
+    {
+        "Name":  "jemishavasoya/dev-cleaner",
+        "Description":  "≡ƒº╣ One-click interactive shell script to safely deep clean development caches (Xcode, Flutter, FVM, Android, npm, Gradle, IDEs) on macOS \u0026 Linux. Recover 50GB+ of storage instantly",
+        "Language":  "PowerShell",
+        "Topics":  "android,bash,bash-script,cleanup,flutter,gradle,homebrew,linux,macos,opensource,productivity,shellscript,utility,vscode,xcode",
+        "URL":  "https://github.com/jemishavasoya/dev-cleaner",
+        "Stars":  180
+    },
+    {
+        "Name":  "czl9707/gh-space-shooter",
+        "Description":  "Visualizes GitHub contribution graphs as Space Shooter!",
+        "Language":  "Python",
+        "Topics":  "github,github-actions,github-contribution-graph,github-profile-readme,readme,shooter-game",
+        "URL":  "https://github.com/czl9707/gh-space-shooter",
+        "Stars":  781
+    },
+    {
+        "Name":  "aden-hive/hive",
+        "Description":  "Outcome driven agent development framework that evolves",
+        "Language":  "Python",
+        "Topics":  "agent,agent-framework,agent-skills,ai-evaluation,anthropic,automation,autonomous-agents,awesome,claude,claude-code,human-in-the-loop,observability-ai,openai,python,self-hosted,self-improving,self-improving-agent,self-improving-ai",
+        "URL":  "https://github.com/aden-hive/hive",
+        "Stars":  9214
+    },
+    {
+        "Name":  "404kidwiz/claude-supercode-skills",
+        "Description":  "133 Agent Skills converted from Claude Code subagents to Anthropic Agent Skills format. 100% quality compliance. 12 major domains covered.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/404kidwiz/claude-supercode-skills",
+        "Stars":  44
+    },
+    {
+        "Name":  "TransformerOptimus/SuperAGI",
+        "Description":  "\u003cΓÜí∩╕Å\u003e SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage \u0026 run useful autonomous agents quickly and reliably.",
+        "Language":  "Python",
+        "Topics":  "agents,agi,ai,artificial-general-intelligence,artificial-intelligence,autonomous-agents,gpt-4,hacktoberfest,llm,llmops,nextjs,openai,pinecone,python,superagi",
+        "URL":  "https://github.com/TransformerOptimus/SuperAGI",
+        "Stars":  17256
+    },
+    {
+        "Name":  "Significant-Gravitas/AutoGPT",
+        "Description":  "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "Language":  "Python",
+        "Topics":  "ai,artificial-intelligence,autonomous-agents,gpt-4,llama-api,openai,python",
+        "URL":  "https://github.com/Significant-Gravitas/AutoGPT",
+        "Stars":  182361
+    },
+    {
+        "Name":  "leomariga/ProactiveAgent",
+        "Description":  "Transform your AI from reactive to proactive with intelligent timing and context-aware wake-up patterns.",
+        "Language":  "Python",
+        "Topics":  "active,agent,ai,async,autonomous,autonomous-agents,decision-making,engage,llm,natural-language,proactive,proactive-ai,python,schedualing,sleep,thread,time,time-awareness,timing,wake-up",
+        "URL":  "https://github.com/leomariga/ProactiveAgent",
+        "Stars":  21
+    },
+    {
+        "Name":  "thunlp/ProactiveAgent",
+        "Description":  "A LLM-based Agent that predict its tasks proactively.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/thunlp/ProactiveAgent",
+        "Stars":  525
+    },
+    {
+        "Name":  "openaiotlab/ContextAgent",
+        "Description":  "[NeurIPS\u002725] ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/openaiotlab/ContextAgent",
+        "Stars":  31
+    },
+    {
+        "Name":  "a-real-ai/pywinassistant",
+        "Description":  "The first open-source Artificial Narrow Intelligence generalist agentic framework Computer-Using-Agent that fully operates graphical-user-interfaces (GUIs) by using only natural language. Uses Visualization-of-Thought and Chain-of-Thought reasoning to elicit spatial reasoning and perception, emulates, plans and simulates synthetic HID interactions.",
+        "Language":  "Python",
+        "Topics":  "artificial-general-intelligence,artificial-intelligence-algorithms,artificial-narrow-intelligence,computer-using-agent,cot,cua,graphical-user-interface,ui,ui-ux,ux,vot",
+        "URL":  "https://github.com/a-real-ai/pywinassistant",
+        "Stars":  1333
+    },
+    {
+        "Name":  "Jenqyang/Awesome-AI-Agents",
+        "Description":  "A collection of autonomous agents ≡ƒñû∩╕Å powered by LLM.",
+        "Language":  "Unknown",
+        "Topics":  "agent,agents,llm,llm-powered-agents,multi-agent",
+        "URL":  "https://github.com/Jenqyang/Awesome-AI-Agents",
+        "Stars":  1008
+    },
+    {
+        "Name":  "agent0ai/agent-zero",
+        "Description":  "Agent Zero AI framework",
+        "Language":  "Python",
+        "Topics":  "agent,ai,assistant,autonomous,linux,zero",
+        "URL":  "https://github.com/agent0ai/agent-zero",
+        "Stars":  16000
+    },
+    {
+        "Name":  "openclaw/openclaw",
+        "Description":  "Your own personal AI assistant. Any OS. Any Platform. The lobster way. ≡ƒª₧ ",
+        "Language":  "TypeScript",
+        "Topics":  "ai,assistant,crustacean,molty,openclaw,own-your-data,personal",
+        "URL":  "https://github.com/openclaw/openclaw",
+        "Stars":  303399
+    },
+    {
+        "Name":  "MCPJam/inspector",
+        "Description":  "Test \u0026 Debug MCP servers, ChatGPT apps, and MCP Apps (ext-apps)",
+        "Language":  "TypeScript",
+        "Topics":  "chatgpt,mcp,mcp-apps,mcp-clients,mcp-tools,modelcontextprotocol,opensource",
+        "URL":  "https://github.com/MCPJam/inspector",
+        "Stars":  1792
+    },
+    {
+        "Name":  "affaan-m/everything-claude-code",
+        "Description":  "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "Language":  "JavaScript",
+        "Topics":  "ai-agents,anthropic,claude,claude-code,developer-tools,llm,mcp,productivity",
+        "URL":  "https://github.com/affaan-m/everything-claude-code",
+        "Stars":  71707
+    },
+    {
+        "Name":  "autogluon/autogluon",
+        "Description":  "Fast and Accurate ML in 3 Lines of Code",
+        "Language":  "Python",
+        "Topics":  "autogluon,automated-machine-learning,automl,computer-vision,data-science,deep-learning,ensemble-learning,forecasting,gluon,hyperparameter-optimization,machine-learning,natural-language-processing,object-detection,python,pytorch,scikit-learn,structured-data,tabular-data,time-series,transfer-learning",
+        "URL":  "https://github.com/autogluon/autogluon",
+        "Stars":  10087
+    },
+    {
+        "Name":  "udlbook/udlbook",
+        "Description":  "Understanding Deep Learning - Simon J.D. Prince",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/udlbook/udlbook",
+        "Stars":  9178
+    },
+    {
+        "Name":  "huangserva/skill-prompt-generator",
+        "Description":  "Φ┐Öµÿ»Σ╕ÇΣ╕¬σƒ║Σ║ÄClaude SkillτÜä**AIΣ║║σâÅPromptτöƒµêÉτ│╗τ╗ƒ**∩╝îΦâ╜σñƒΣ╗Äτë╣σ╛üσ║ôΣ╕¡µÖ║Φâ╜τ╗äσÉêτöƒµêÉΘ½ÿΦ┤¿ΘçÅτÜäΣ║║σâÅµÅÅΦ┐░Prompt∩╝îσ╣╢σà╖σñçΦç¬σè¿σ¡ªΣ╣áσÆîσ║ôµë⌐σ▒òΦâ╜σè¢πÇé µá╕σ┐âΦâ╜σè¢: PromptτöƒµêÉπÇüτë╣σ╛üµÅÉσÅûπÇüΦç¬σè¿σ¡ªΣ╣áπÇüµÖ║Φâ╜σ«íµá╕πÇüτëêµ£¼µÄºσê╢",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/huangserva/skill-prompt-generator",
+        "Stars":  1148
+    },
+    {
+        "Name":  "VoltAgent/awesome-claude-code-subagents",
+        "Description":  "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+        "Language":  "Shell",
+        "Topics":  "ai-agent-framework,ai-agent-tools,ai-agents,awesome,awesome-list,claude,claude-ai,claude-code-subagents,claude-subagents,subagents",
+        "URL":  "https://github.com/VoltAgent/awesome-claude-code-subagents",
+        "Stars":  13321
+    },
+    {
+        "Name":  "NirDiamant/agents-towards-production",
+        "Description":  " This repository delivers end-to-end, code-first tutorials covering every layer of production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "agent,agent-framework,agents,ai-agents,genai,generative-ai,llm,llms,mlops,multi-agent,production,tool-integration,tutorials",
+        "URL":  "https://github.com/NirDiamant/agents-towards-production",
+        "Stars":  18147
+    },
+    {
+        "Name":  "czlonkowski/n8n-mcp",
+        "Description":  "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+        "Language":  "TypeScript",
+        "Topics":  "mcp,mcp-server,n8n,workflows",
+        "URL":  "https://github.com/czlonkowski/n8n-mcp",
+        "Stars":  14900
+    },
+    {
+        "Name":  "gsd-build/get-shit-done",
+        "Description":  "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by T├éCHES.",
+        "Language":  "JavaScript",
+        "Topics":  "claude-code,context-engineering,meta-prompting,spec-driven-development",
+        "URL":  "https://github.com/gsd-build/get-shit-done",
+        "Stars":  28014
+    },
+    {
+        "Name":  "whawkinsiv/solo-founder-superpowers",
+        "Description":  "Skillset optimized for solo, bootstrapped, and non-technical founders building SaaS applications with AI tools (Lovable, Replit, Claude Code).",
+        "Language":  "Shell",
+        "Topics":  "",
+        "URL":  "https://github.com/whawkinsiv/solo-founder-superpowers",
+        "Stars":  150
+    },
+    {
+        "Name":  "pedroslopez/whatsapp-web.js",
+        "Description":  "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+        "Language":  "JavaScript",
+        "Topics":  "api,bot,bot-api,hacktoberfest,whatsapp,whatsapp-api,whatsapp-bot,whatsapp-web,whatsapp-web-api",
+        "URL":  "https://github.com/pedroslopez/whatsapp-web.js",
+        "Stars":  21362
+    },
+    {
+        "Name":  "BUZASLAN128/HiveMind-Actions",
+        "Description":  "The First \"Serverless\" Swarm AI for GitHub Actions. Turn your repository into a self-healing, multi-agent AI workspace with zero infrastructure cost.",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/BUZASLAN128/HiveMind-Actions",
+        "Stars":  23
+    },
+    {
+        "Name":  "sickn33/antigravity-awesome-skills",
+        "Description":  "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.",
+        "Language":  "Python",
+        "Topics":  "agentic-skills,ai-agents,antigravity,autonomous-coding,claude-code,mcp,react-patterns,security-auditing",
+        "URL":  "https://github.com/sickn33/antigravity-awesome-skills",
+        "Stars":  23229
+    },
+    {
+        "Name":  "vercel-labs/agent-skills",
+        "Description":  "Vercel\u0027s official collection of agent skills",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/vercel-labs/agent-skills",
+        "Stars":  22750
+    },
+    {
+        "Name":  "gyoridavid/ai_agents_az",
+        "Description":  "No description",
+        "Language":  "Python",
+        "Topics":  "n8n,n8n-workflow,workflows",
+        "URL":  "https://github.com/gyoridavid/ai_agents_az",
+        "Stars":  3697
+    },
+    {
+        "Name":  "RDI-Foundation/agentbeats-tutorial",
+        "Description":  "No description",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/RDI-Foundation/agentbeats-tutorial",
+        "Stars":  80
+    },
+    {
+        "Name":  "humanlayer/humanlayer",
+        "Description":  "The best way to get AI coding agents to solve hard problems in complex codebases.",
+        "Language":  "TypeScript",
+        "Topics":  "agents,ai,amp,claude-code,codex,human-in-the-loop,humanlayer,llm,llms,opencode",
+        "URL":  "https://github.com/humanlayer/humanlayer",
+        "Stars":  9783
+    },
+    {
+        "Name":  "punkpeye/awesome-mcp-servers",
+        "Description":  "A collection of MCP servers.",
+        "Language":  "Unknown",
+        "Topics":  "ai,mcp",
+        "URL":  "https://github.com/punkpeye/awesome-mcp-servers",
+        "Stars":  82778
+    },
+    {
+        "Name":  "enescingoz/awesome-n8n-templates",
+        "Description":  "Supercharge your workflow automation with this curated collection of n8n templates! Instantly connect your favorite apps-like Gmail, Telegram, Google Drive, Slack, and more-with ready-to-use, AI-powered automations. Save time, boost productivity, and unlock the true potential of n8n in just a few clicks.",
+        "Language":  "Unknown",
+        "Topics":  "automation,automation-templates,integration,n8n,n8n-automation,n8n-template,no-code-ai,no-code-automation,workflow-automation",
+        "URL":  "https://github.com/enescingoz/awesome-n8n-templates",
+        "Stars":  20007
+    },
+    {
+        "Name":  "nusquama/n8nworkflows.xyz",
+        "Description":  "N8N Workflows Catalog",
+        "Language":  "Unknown",
+        "Topics":  "n8n,n8n-automation,n8n-node,n8n-nodes,n8n-template,n8n-workflow,n8n-workflows",
+        "URL":  "https://github.com/nusquama/n8nworkflows.xyz",
+        "Stars":  2083
+    },
+    {
+        "Name":  "zengfr/n8n-workflow-all-templates",
+        "Description":  "8209+N8N Workflow Collection∩╝în8n-workflow-all-templates∩╝îMost comprehensive.synchronized and updated every 1 months.",
+        "Language":  "Unknown",
+        "Topics":  "8n8,ai-workflow,coze,dify,dify-plugin,n8n,n8n-automation,n8n-nodes,n8n-template,n8n-templates,n8n-workflow,templates,workflow",
+        "URL":  "https://github.com/zengfr/n8n-workflow-all-templates",
+        "Stars":  63
+    },
+    {
+        "Name":  "100rabhkr/promptctl",
+        "Description":  "No description",
+        "Language":  "TypeScript",
+        "Topics":  "",
+        "URL":  "https://github.com/100rabhkr/promptctl",
+        "Stars":  5
+    },
+    {
+        "Name":  "firecrawl/firecrawl",
+        "Description":  "≡ƒöÑ The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+        "Language":  "TypeScript",
+        "Topics":  "ai,ai-agents,ai-crawler,ai-scraping,ai-search,crawler,data-extraction,html-to-markdown,llm,markdown,scraper,scraping,web-crawler,web-data,web-data-extraction,web-scraper,web-scraping,web-search,webscraping",
+        "URL":  "https://github.com/firecrawl/firecrawl",
+        "Stars":  91186
+    },
+    {
+        "Name":  "harvard-edge/cs249r_book",
+        "Description":  "Machine Learning Systems",
+        "Language":  "JavaScript",
+        "Topics":  "artificial-intelligence,cloud-ml,computer-systems,courseware,deep-learning,edge-machine-learning,embedded-ml,machine-learning,machine-learning-systems,mobile-ml,textbook,tinyml",
+        "URL":  "https://github.com/harvard-edge/cs249r_book",
+        "Stars":  22530
+    },
+    {
+        "Name":  "wassengerhq/whatsapp-chatgpt-bot",
+        "Description":  "Ready-to-use AI Multimodal ChatGPT-based WhatsApp chatbot assistant for your business. Now supports GPT-4o with text + audio + image input, audio responses, and improved RAG + MCP ≡ƒñ⌐",
+        "Language":  "JavaScript",
+        "Topics":  "ai-bot,chatbot,chatgpt,gemini,openai,whatsapp,whatsapp-ai,whatsapp-api,whatsapp-automation,whatsapp-bot,whatsapp-chat,whatsapp-chatbot",
+        "URL":  "https://github.com/wassengerhq/whatsapp-chatgpt-bot",
+        "Stars":  147
+    },
+    {
+        "Name":  "obviousworks/vibe-coding-ai-rules",
+        "Description":  "The Ultimate Agentic Vibe Coding Guide for AI IDEs like Windsurf, Claude Code, Cursor, Codex etc. ΓÇô AI-optimized rules, best practices, and configuration files for efficient and controlled AI-powered coding.",
+        "Language":  "Unknown",
+        "Topics":  "agent-rules,agentic-coding,agentic-coding-rules,ai-agents,vibe-coding,vibe-coding-rules",
+        "URL":  "https://github.com/obviousworks/vibe-coding-ai-rules",
+        "Stars":  58
+    },
+    {
+        "Name":  "PatrickJS/awesome-cursorrules",
+        "Description":  "≡ƒôä  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+        "Language":  "MDX",
+        "Topics":  "awesome,awesome-list,cursor,cursor-ai-editor,cursorrules",
+        "URL":  "https://github.com/PatrickJS/awesome-cursorrules",
+        "Stars":  38383
+    },
+    {
+        "Name":  "anthropics/claude-plugins-official",
+        "Description":  "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "Language":  "Python",
+        "Topics":  "claude-code,mcp,skills",
+        "URL":  "https://github.com/anthropics/claude-plugins-official",
+        "Stars":  9793
+    },
+    {
+        "Name":  "obra/superpowers",
+        "Description":  "An agentic skills framework \u0026 software development methodology that works.",
+        "Language":  "Shell",
+        "Topics":  "",
+        "URL":  "https://github.com/obra/superpowers",
+        "Stars":  77709
+    },
+    {
+        "Name":  "vercel-labs/ralph-loop-agent",
+        "Description":  "Continuous Autonomy for the AI SDK",
+        "Language":  "TypeScript",
+        "Topics":  "experimental",
+        "URL":  "https://github.com/vercel-labs/ralph-loop-agent",
+        "Stars":  701
+    },
+    {
+        "Name":  "public-apis/public-apis",
+        "Description":  "A collective list of free APIs",
+        "Language":  "Python",
+        "Topics":  "api,apis,dataset,development,free,list,lists,open-source,public,public-api,public-apis,resources,software",
+        "URL":  "https://github.com/public-apis/public-apis",
+        "Stars":  406773
+    },
+    {
+        "Name":  "apvlv/davinci-resolve-mcp",
+        "Description":  "A Model Context Protocol (MCP) server for interacting with DaVinci Resolve and Fusion",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/apvlv/davinci-resolve-mcp",
+        "Stars":  52
+    },
+    {
+        "Name":  "anthropics/skills",
+        "Description":  "Public repository for Agent Skills",
+        "Language":  "Python",
+        "Topics":  "agent-skills",
+        "URL":  "https://github.com/anthropics/skills",
+        "Stars":  90549
+    },
+    {
+        "Name":  "anthropics/prompt-eng-interactive-tutorial",
+        "Description":  "Anthropic\u0027s Interactive Prompt Engineering Tutorial",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+        "Stars":  33267
+    },
+    {
+        "Name":  "OthmanAdi/planning-with-files",
+        "Description":  "Claude Code skill implementing Manus-style persistent markdown planning ΓÇö the workflow pattern behind the $2B acquisition.",
+        "Language":  "Python",
+        "Topics":  "adal,agent,agent-skills,agents,antigravity,claude,claude-code,claude-skills,clawd,clawdbot,clawdbot-skill,clawdhub,codebuddy,cursor,factory-ai,kilocode,manus,manus-ai,moltbot,moltbot-skills",
+        "URL":  "https://github.com/OthmanAdi/planning-with-files",
+        "Stars":  15802
+    },
+    {
+        "Name":  "Siddhant-Goswami/100x-LLM",
+        "Description":  "Code snippets and examples from the 100x Applied AI cohort lectures.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/Siddhant-Goswami/100x-LLM",
+        "Stars":  488
+    },
+    {
+        "Name":  "patchy631/ai-engineering-hub",
+        "Description":  "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "agents,ai,llms,machine-learning,mcp,rag",
+        "URL":  "https://github.com/patchy631/ai-engineering-hub",
+        "Stars":  31683
+    },
+    {
+        "Name":  "OpenHands/OpenHands",
+        "Description":  "≡ƒÖî OpenHands: AI-Driven Development",
+        "Language":  "Python",
+        "Topics":  "agent,artificial-intelligence,chatgpt,claude-ai,cli,developer-tools,gpt,llm,openai",
+        "URL":  "https://github.com/OpenHands/OpenHands",
+        "Stars":  68932
+    },
+    {
+        "Name":  "timescale/pg-aiguide",
+        "Description":  "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+        "Language":  "Python",
+        "Topics":  "ai,ai-agents,ai-coding,claude-code-plugin,claude-code-plugins,claude-code-plugins-marketplace,claude-marketplace,claude-plugin,claude-skills,docs,documentation,mcp,mcp-server,postgres,postgresql,skills",
+        "URL":  "https://github.com/timescale/pg-aiguide",
+        "Stars":  1602
+    },
+    {
+        "Name":  "coollabsio/coolify",
+        "Description":  "An open-source, self-hostable PaaS alternative to Vercel, Heroku \u0026 Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+        "Language":  "PHP",
+        "Topics":  "coolify,databases,deployment,docker,docker-compose,inertiajs,laravel,mariadb,mysql,nextjs,nodejs,php,postgres,redis,self-hosted,self-hosting,server,static-site,svelte,svelte5",
+        "URL":  "https://github.com/coollabsio/coolify",
+        "Stars":  51580
+    },
+    {
+        "Name":  "badrisnarayanan/antigravity-claude-proxy",
+        "Description":  "Proxy that exposes Antigravity provided claude / gemini models, so we can use them in Claude Code and OpenClaw (Clawdbot)",
+        "Language":  "JavaScript",
+        "Topics":  "antigravity,claude,claude-ai,claude-code,clawdbot,gemini,gemini-cli,openclaw,proxy",
+        "URL":  "https://github.com/badrisnarayanan/antigravity-claude-proxy",
+        "Stars":  3115
+    },
+    {
+        "Name":  "ixartz/SaaS-Boilerplate",
+        "Description":  "≡ƒÜÇ≡ƒÄë≡ƒôÜ SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ΓÜí∩╕Å Full-stack React application with Auth, Multi-tenancy, Roles \u0026 Permissions, i18n, Landing Page, DB, Logging, Testing",
+        "Language":  "TypeScript",
+        "Topics":  "authentication,boilerplate,multi-tenancy,nextjs,react,reactjs,saas,saas-app,saas-application,saas-boilerplate,saas-kit,shadcn-ui,stack,starter,starter-kit,starter-project,starter-template,template,template-project,typescript",
+        "URL":  "https://github.com/ixartz/SaaS-Boilerplate",
+        "Stars":  6891
+    },
+    {
+        "Name":  "Shubhamsaboo/awesome-llm-apps",
+        "Description":  "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+        "Language":  "Python",
+        "Topics":  "agents,llms,python,rag",
+        "URL":  "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "Stars":  101616
+    },
+    {
+        "Name":  "aiplanethub/openagi",
+        "Description":  "Paving the way for open agents and AGI for all.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "agents,agi,generative-ai,hacktoberfest,hacktoberfest-accepted,hacktoberfest2023,hacktoberfest2024,large-language-models,llm,openagi,openai",
+        "URL":  "https://github.com/aiplanethub/openagi",
+        "Stars":  565
+    },
+    {
+        "Name":  "transformerlab/transformerlab-app",
+        "Description":  "The open source research environment for AI researchers to seamlessly train, evaluate, and scale models from local hardware to GPU clusters.",
+        "Language":  "Python",
+        "Topics":  "diffusion,diffusion-models,electron,llama,llms,lora,mlx,rlhf,stability-diffusion,transformers",
+        "URL":  "https://github.com/transformerlab/transformerlab-app",
+        "Stars":  4820
+    },
+    {
+        "Name":  "Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
+        "Description":  "This repository contains a curated collection of 300+ case studies from over 80 companies, detailing practical applications and insights into machine learning (ML) system design. The contents are organized to help you easily find relevant case studies based on industry or specific ML use cases. ",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
+        "Stars":  9336
+    },
+    {
+        "Name":  "exo-explore/exo",
+        "Description":  "Run frontier AI locally.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/exo-explore/exo",
+        "Stars":  42473
+    },
+    {
+        "Name":  "farion1231/cc-switch",
+        "Description":  "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw \u0026 Gemini CLI.",
+        "Language":  "Rust",
+        "Topics":  "ai-tools,claude-code,codex,desktop-app,mcp,minimax,omo,open-source,openclaw,openclaw-ui,opencode,provider-management,rust,skills,skills-management,tauri,typescript,wsl-support",
+        "URL":  "https://github.com/farion1231/cc-switch",
+        "Stars":  26743
+    },
+    {
+        "Name":  "owenkaplinsky/MCP-Blockly",
+        "Description":  "No description",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/owenkaplinsky/MCP-Blockly",
+        "Stars":  2
+    },
+    {
+        "Name":  "numman-ali/openskills",
+        "Description":  "Universal skills loader for AI coding agents - npm i -g openskills",
+        "Language":  "TypeScript",
+        "Topics":  "",
+        "URL":  "https://github.com/numman-ali/openskills",
+        "Stars":  8953
+    },
+    {
+        "Name":  "MoizIbnYousaf/Ai-Agent-Skills",
+        "Description":  "Homebrew for AI Agent Skills.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/MoizIbnYousaf/Ai-Agent-Skills",
+        "Stars":  911
+    },
+    {
+        "Name":  "afshinea/stanford-cs-229-machine-learning",
+        "Description":  "VIP cheatsheets for Stanford\u0027s CS 229 Machine Learning",
+        "Language":  "Unknown",
+        "Topics":  "cheatsheet,cs229,data-science,deep-learning,machine-learning,ml-cheatsheet,supervised-learning,unsupervised-learning",
+        "URL":  "https://github.com/afshinea/stanford-cs-229-machine-learning",
+        "Stars":  19292
+    },
+    {
+        "Name":  "google/tunix",
+        "Description":  "A Lightweight LLM Post-Training Library",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/google/tunix",
+        "Stars":  2182
+    },
+    {
+        "Name":  "GetVik/getvik",
+        "Description":  "No description",
+        "Language":  "TypeScript",
+        "Topics":  "",
+        "URL":  "https://github.com/GetVik/getvik",
+        "Stars":  7
+    },
+    {
+        "Name":  "N1KH1LT0X1N/Pramana.AI",
+        "Description":  "≡ƒº¼ AI-powered biomedical research platform built with LangGraph, Groq, and React 19. Features 5 specialized agents, real-time streaming, and Model Context Protocol (MCP) integration.",
+        "Language":  "TypeScript",
+        "Topics":  "biomedical-research,deep-research,groq,langgraph,mcp-agent,multi-agent,react-19",
+        "URL":  "https://github.com/N1KH1LT0X1N/Pramana.AI",
+        "Stars":  1
+    },
+    {
+        "Name":  "mayooear/ai-pdf-chatbot-langchain",
+        "Description":  "AI PDF chatbot agent built with LangChain \u0026 LangGraph ",
+        "Language":  "TypeScript",
+        "Topics":  "agents,ai,chatbot,langchain,langgraph,nextjs,openai,pdf,typescript",
+        "URL":  "https://github.com/mayooear/ai-pdf-chatbot-langchain",
+        "Stars":  16387
+    },
+    {
+        "Name":  "google-gemini/gemini-fullstack-langgraph-quickstart",
+        "Description":  "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "gemini,gemini-api",
+        "URL":  "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart",
+        "Stars":  17968
+    },
+    {
+        "Name":  "ln-dev7/square-ui",
+        "Description":  "Collection of beautifully crafted open-source layouts UI built with shadcn/ui.",
+        "Language":  "TypeScript",
+        "Topics":  "layout,shadcn-ui,template",
+        "URL":  "https://github.com/ln-dev7/square-ui",
+        "Stars":  5022
+    },
+    {
+        "Name":  "kayba-ai/agentic-context-engine",
+        "Description":  "≡ƒºá Make your agents learn from experience. Now available as a hosted solution at kayba.ai ",
+        "Language":  "Python",
+        "Topics":  "agent-learning,agent-memory,agents,ai,ai-agents,ai-tools,context-engineering,llm,machine-learning,memory,python",
+        "URL":  "https://github.com/kayba-ai/agentic-context-engine",
+        "Stars":  1970
+    },
+    {
+        "Name":  "mcp-use/mcp-use",
+        "Description":  "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude \u0026 MCP Servers for AI Agents.",
+        "Language":  "TypeScript",
+        "Topics":  "agentic-framework,ai,apps-sdk,chatgpt,claude-code,llms,mcp,mcp-apps,mcp-client,mcp-gateway,mcp-host,mcp-inspector,mcp-server,mcp-servers,mcp-tools,mcp-ui,model-context-protocol,modelcontextprotocol,openclaw,skills",
+        "URL":  "https://github.com/mcp-use/mcp-use",
+        "Stars":  9420
+    },
+    {
+        "Name":  "N1KH1LT0X1N/SahiPay",
+        "Description":  "≡ƒÆ╕ SahiPay: A Voice-First Financial Trust Network for Bharat. Bridging the literacy gap with AI voice-banking, alternative credit scoring, and a \"Grandma-friendly\" UI.",
+        "Language":  "JavaScript",
+        "Topics":  "ai,fintech,multilingual,voice-banking",
+        "URL":  "https://github.com/N1KH1LT0X1N/SahiPay",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/GGW-OdooXAmalthea",
+        "Description":  "≡ƒÜÇ Full-stack ERP \u0026 Project Management system featuring a multi-tenant PostgreSQL schema, Kanban board, and RESTful API built with React and Node.js.",
+        "Language":  "JavaScript",
+        "Topics":  "crm,prostgresql,react,restful-api",
+        "URL":  "https://github.com/N1KH1LT0X1N/GGW-OdooXAmalthea",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/Road-Safety-Intervention-Chatbot",
+        "Description":  "≡ƒ¢æ An AI-powered system for recommending road safety interventions based on IRC standards, using Google Gemini API and hybrid RAG search.",
+        "Language":  "Python",
+        "Topics":  "rag,road-signs,safety",
+        "URL":  "https://github.com/N1KH1LT0X1N/Road-Safety-Intervention-Chatbot",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/MediGuard",
+        "Description":  "≡ƒ⌐║ AI-powered clinical triage: blood-test disease prediction + WhatsApp bot (XGBoost, FastAPI)",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "ai,blockchain,fastapi,heathcare-tech,ocr,react,whatsapp-bot,xgboost",
+        "URL":  "https://github.com/N1KH1LT0X1N/MediGuard",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/MediGuard-Chatbot",
+        "Description":  "≡ƒñû An automated WhatsApp bot that enables programmatic messaging, command handling, and custom interactions using WhatsApp Web API",
+        "Language":  "Python",
+        "Topics":  "deployed,flask,ocr,optimization,twillio,whatsapp",
+        "URL":  "https://github.com/N1KH1LT0X1N/MediGuard-Chatbot",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/Medium-Agent",
+        "Description":  "≡ƒôÜ Turn Medium articles into audio, summaries, and AI reports. Features robust scraping with anti-bot bypass, Claude Desktop (MCP) integration, and a Gradio UI.",
+        "Language":  "Python",
+        "Topics":  "ai-agent,articles,audio,claude-desktop,mcp,mcp-server,medium,medium-scraper,report,scraper,text-to-speech",
+        "URL":  "https://github.com/N1KH1LT0X1N/Medium-Agent",
+        "Stars":  2
+    },
+    {
+        "Name":  "TheAlgorithms/Python",
+        "Description":  "All Algorithms implemented in Python",
+        "Language":  "Python",
+        "Topics":  "algorithm,algorithm-competitions,algorithms-implemented,algos,community-driven,education,hacktoberfest,interview,learn,practice,python,searches,sorting-algorithms,sorts",
+        "URL":  "https://github.com/TheAlgorithms/Python",
+        "Stars":  218588
+    },
+    {
+        "Name":  "Rishabh-creator601/Books",
+        "Description":  "Books / PDFS / EPUBS for different fields of programming  . READ GROW AND ENJOY ≡ƒÿè≡ƒÿè≡ƒÿè≡ƒÿè",
+        "Language":  "Unknown",
+        "Topics":  "computer-vision,cpp,deep-learning,dvc-pipeline,hacking,hypothesis-testing,javascript,machine-learning,maths,mlflow,mongodb-database,natural-language-processing,pdfs,python,reinforcement-learning,sqlite3,statistics,stats,yolo",
+        "URL":  "https://github.com/Rishabh-creator601/Books",
+        "Stars":  476
+    },
+    {
+        "Name":  "whyankush07/roadmaps-by-ankush",
+        "Description":  "This repo contains all of the roadmaps and blueprints I have designed for the people who trust me for guiding them.",
+        "Language":  "Unknown",
+        "Topics":  "appdevelopment,cloudcomputing,github,linkedin,machinelearning,webdevelopment",
+        "URL":  "https://github.com/whyankush07/roadmaps-by-ankush",
+        "Stars":  137
+    },
+    {
+        "Name":  "anuraghazra/github-readme-stats",
+        "Description":  ":zap: Dynamically generated stats for your github readmes",
+        "Language":  "JavaScript",
+        "Topics":  "dynamic,profile-readme,readme-generator,readme-stats,serverless",
+        "URL":  "https://github.com/anuraghazra/github-readme-stats",
+        "Stars":  78685
+    },
+    {
+        "Name":  "GoogleCloudPlatform/agent-starter-pack",
+        "Description":  "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
+        "Language":  "Python",
+        "Topics":  "agents,gcp,gemini,genai-agents,generative-ai,llmops,mlops,observability",
+        "URL":  "https://github.com/GoogleCloudPlatform/agent-starter-pack",
+        "Stars":  5935
+    },
+    {
+        "Name":  "pguso/ai-agents-from-scratch",
+        "Description":  "Demystify AI agents by building them yourself. Local LLMs, no black boxes, real understanding of function calling, memory, and ReAct patterns.",
+        "Language":  "JavaScript",
+        "Topics":  "ai-agents,educational,function-calling,llm,llm-agent,node-llama-cpp,react-agent,tutorial",
+        "URL":  "https://github.com/pguso/ai-agents-from-scratch",
+        "Stars":  3276
+    },
+    {
+        "Name":  "pguso/rag-from-scratch",
+        "Description":  "Demystify RAG by building it from scratch. Local LLMs, no black boxes - real understanding of embeddings, vector search, retrieval, and context-augmented generation.",
+        "Language":  "JavaScript",
+        "Topics":  "agents,ai-agents,educational,llm,node-llama-cpp,nodejs,rag,rag-chatbot,rag-pipeline,tutorial",
+        "URL":  "https://github.com/pguso/rag-from-scratch",
+        "Stars":  1237
+    },
+    {
+        "Name":  "HKUDS/AutoAgent",
+        "Description":  "\"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework\"",
+        "Language":  "Python",
+        "Topics":  "agent,llms",
+        "URL":  "https://github.com/HKUDS/AutoAgent",
+        "Stars":  8648
+    },
+    {
+        "Name":  "jayxin/Ilya-30u30",
+        "Description":  "This repository contains the resources(papers, blogs, websites, etc.) Ilya recommended to learn about Artificial Intelligence.",
+        "Language":  "HTML",
+        "Topics":  "",
+        "URL":  "https://github.com/jayxin/Ilya-30u30",
+        "Stars":  744
+    },
+    {
+        "Name":  "Nutlope/self.so",
+        "Description":  "LinkedIn -\u003e personal site generator",
+        "Language":  "TypeScript",
+        "Topics":  "",
+        "URL":  "https://github.com/Nutlope/self.so",
+        "Stars":  2902
+    },
+    {
+        "Name":  "javiramos1/qagent",
+        "Description":  "Simple AI Agent to answer questions for specific domains based on website docs",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/javiramos1/qagent",
+        "Stars":  210
+    },
+    {
+        "Name":  "FalkorDB/FalkorDB",
+        "Description":  "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+        "Language":  "C",
+        "Topics":  "cloud-database,database,database-as-a-service,developer-tools,devtools,graph-database,graphrag,knowledge-graph,realtime-database",
+        "URL":  "https://github.com/FalkorDB/FalkorDB",
+        "Stars":  3693
+    },
+    {
+        "Name":  "infiniflow/ragflow",
+        "Description":  "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+        "Language":  "Python",
+        "Topics":  "agent,agentic,agentic-ai,agentic-workflow,ai,ai-search,context-engineering,context-retrieval,deep-research,deepseek,deepseek-r1,document-parser,document-understanding,graphrag,llm,mcp,ollama,openai,rag,retrieval-augmented-generation",
+        "URL":  "https://github.com/infiniflow/ragflow",
+        "Stars":  74776
+    },
+    {
+        "Name":  "apify/crawlee-python",
+        "Description":  "CrawleeΓÇöA web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Parsel, BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+        "Language":  "Python",
+        "Topics":  "apify,automation,beautifulsoup,crawler,crawling,hacktoberfest,headless,headless-chrome,parsel,pip,playwright,python,scraper,scraping,web-crawler,web-crawling,web-scraping",
+        "URL":  "https://github.com/apify/crawlee-python",
+        "Stars":  8482
+    },
+    {
+        "Name":  "alphaiterations/multi-agent-chatbot",
+        "Description":  "multi-agent-chatbot",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/alphaiterations/multi-agent-chatbot",
+        "Stars":  8
+    },
+    {
+        "Name":  "anthropics/claude-cookbooks",
+        "Description":  "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/anthropics/claude-cookbooks",
+        "Stars":  34710
+    },
+    {
+        "Name":  "K-Dense-AI/karpathy",
+        "Description":  "An agentic Machine Learning Engineer",
+        "Language":  "Python",
+        "Topics":  "agentic-ai,automl,machine-learning",
+        "URL":  "https://github.com/K-Dense-AI/karpathy",
+        "Stars":  1256
+    },
+    {
+        "Name":  "durgeshsamariya/Data-Science-Machine-Learning-Project-with-Source-Code",
+        "Description":  "Data Science and Machine Learning projects with source code.",
+        "Language":  "Unknown",
+        "Topics":  "artificial-intelligence,awesome,awesome-list,data-science,data-science-projects,machine-learning,machine-learning-projects,python",
+        "URL":  "https://github.com/durgeshsamariya/Data-Science-Machine-Learning-Project-with-Source-Code",
+        "Stars":  1086
+    },
+    {
+        "Name":  "DigitalPlatDev/FreeDomain",
+        "Description":  "DigitalPlat FreeDomain: Free Domain For Everyone",
+        "Language":  "HTML",
+        "Topics":  "digitalplat,domain,domain-platform,domainname,domains,free,freedomain",
+        "URL":  "https://github.com/DigitalPlatDev/FreeDomain",
+        "Stars":  151824
+    },
+    {
+        "Name":  "samuelgursky/davinci-resolve-mcp",
+        "Description":  "MCP server integration for DaVinci Resolve",
+        "Language":  "Python",
+        "Topics":  "blackmagic,blackmagic-design,blackmagicdesign,davinci-resolve,davinciresolve,mcp,mcp-server",
+        "URL":  "https://github.com/samuelgursky/davinci-resolve-mcp",
+        "Stars":  623
+    },
+    {
+        "Name":  "MoonWalker440/Music-Megathread",
+        "Description":  "A Comprehensive List For All Music ≡ƒÄ╢ Lovers. It\u0027s a treasure trove of music resources to enhance your listening experience and discover new music.",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/MoonWalker440/Music-Megathread",
+        "Stars":  2519
+    },
+    {
+        "Name":  "daytonaio/daytona",
+        "Description":  "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+        "Language":  "TypeScript",
+        "Topics":  "agentic-workflow,ai,ai-agents,ai-runtime,ai-sandboxes,code-execution,code-interpreter,developer-tools",
+        "URL":  "https://github.com/daytonaio/daytona",
+        "Stars":  63686
+    },
+    {
+        "Name":  "CopilotKit/CopilotKit",
+        "Description":  "The Frontend for Agents \u0026 Generative UI. React + Angular",
+        "Language":  "TypeScript",
+        "Topics":  "agent,agent-native,agentic-ai,agents,ai,ai-agent,ai-assistant,assistant,assistant-chat-bots,copilot,copilot-chat,generative-ui,js,llm,nextjs,open-source,react,reactjs,ts,typescript",
+        "URL":  "https://github.com/CopilotKit/CopilotKit",
+        "Stars":  29283
+    },
+    {
+        "Name":  "getzep/graphiti",
+        "Description":  "Build Real-Time Knowledge Graphs for AI Agents",
+        "Language":  "Python",
+        "Topics":  "agents,graph,llms,rag",
+        "URL":  "https://github.com/getzep/graphiti",
+        "Stars":  23578
+    },
+    {
+        "Name":  "Tencent/WeKnora",
+        "Description":  "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
+        "Language":  "Go",
+        "Topics":  "agent,agentic,ai,chatbot,chatbots,embeddings,evaluation,generative-ai,golang,knowledge-base,llm,multi-tenant,multimodel,ollama,openai,question-answering,rag,reranking,semantic-search,vector-search",
+        "URL":  "https://github.com/Tencent/WeKnora",
+        "Stars":  13334
+    },
+    {
+        "Name":  "N1KH1LT0X1N/VidyaSetu",
+        "Description":  "≡ƒôÜ Comprehensive digital platform designed to empower students, faculty, and administrators in managing academic portfolios, achievements, and institutional accreditation processes",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/N1KH1LT0X1N/VidyaSetu",
+        "Stars":  2
+    },
+    {
+        "Name":  "iam-veeramalla/aws-devops-zero-to-hero",
+        "Description":  "AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo includes projects, presentations, interview questions and real time examples.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/iam-veeramalla/aws-devops-zero-to-hero",
+        "Stars":  10548
+    },
+    {
+        "Name":  "N1KH1LT0X1N/Fifa-Plotting",
+        "Description":  "≡ƒÿ¼ I was told to make graphs that might blow your minds, idk how, follow me as i fail miserably (spoiler alert - i did it)",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "data-science,data-visualization,eda,fifa,machine-learning",
+        "URL":  "https://github.com/N1KH1LT0X1N/Fifa-Plotting",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/Saral.AI",
+        "Description":  "≡ƒÄô Transform research papers into educational videos, podcasts, mind maps, and visual stories using AI. Democratizing research through multi-format content generation.",
+        "Language":  "C",
+        "Topics":  "accessibility,ai,arxiv,chrome-extension,education,fastapi,mindmap,podcast,react,research,research-paper,video-generation,whatsapp-bot",
+        "URL":  "https://github.com/N1KH1LT0X1N/Saral.AI",
+        "Stars":  3
+    },
+    {
+        "Name":  "N1KH1LT0X1N/Research-Paper-Chatbot",
+        "Description":  "≡ƒô¥ A Whatsapp chatbot for asking, searching, summarizing and questioning research papers.",
+        "Language":  "Python",
+        "Topics":  "chatbot,flask,pdf,qna,research,semantic-search,summarization",
+        "URL":  "https://github.com/N1KH1LT0X1N/Research-Paper-Chatbot",
+        "Stars":  1
+    },
+    {
+        "Name":  "N1KH1LT0X1N/FreelanceMCP",
+        "Description":  "≡ƒÜÇ AI-powered freelance gig aggregator MCP server for Claude Desktop. Search gigs, generate proposals, negotiate rates \u0026 optimize profiles with ChatGroq AI.",
+        "Language":  "Python",
+        "Topics":  "ai-automation,chatgroq,code-review,freelancing,langchain,mcp,mcp-client,mcp-server,model-context",
+        "URL":  "https://github.com/N1KH1LT0X1N/FreelanceMCP",
+        "Stars":  3
+    },
+    {
+        "Name":  "N1KH1LT0X1N/SpotifyMCP",
+        "Description":  "≡ƒÄ╡ Production-ready MCP server for Spotify - Control playback, manage playlists, search music \u0026 more via AI assistants like Claude Desktop",
+        "Language":  "Python",
+        "Topics":  "assistant,authentication,automation,claude,mcp,mcp-server,music,spotify,spotify-web-api",
+        "URL":  "https://github.com/N1KH1LT0X1N/SpotifyMCP",
+        "Stars":  1
+    },
+    {
+        "Name":  "ebrahimgamdiwala/ML-BOOTCAMP-25",
+        "Description":  "No description",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/ebrahimgamdiwala/ML-BOOTCAMP-25",
+        "Stars":  24
+    },
+    {
+        "Name":  "deepset-ai/haystack",
+        "Description":  "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+        "Language":  "MDX",
+        "Topics":  "agent,agents,ai,gemini,generative-ai,gpt-4,information-retrieval,large-language-models,llm,machine-learning,nlp,orchestration,python,pytorch,question-answering,rag,retrieval-augmented-generation,semantic-search,summarization,transformers",
+        "URL":  "https://github.com/deepset-ai/haystack",
+        "Stars":  24465
+    },
+    {
+        "Name":  "karpathy/nanochat",
+        "Description":  "The best ChatGPT that $100 can buy.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/karpathy/nanochat",
+        "Stars":  46553
+    },
+    {
+        "Name":  "DemocratiseResearch/SARAL",
+        "Description":  "No description",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/DemocratiseResearch/SARAL",
+        "Stars":  131
+    },
+    {
+        "Name":  "nishant-Tiwari24/company-wise-projects",
+        "Description":  "Top ideas for a particular compmay to build some crazy projects.",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/nishant-Tiwari24/company-wise-projects",
+        "Stars":  2154
+    },
+    {
+        "Name":  "Benjamin-GitHub/Fake-News-Detector",
+        "Description":  "This project runs a Flask web app for fake news detection using pre-trained models (Naive Bayes, Random Forest, SVM) and TF-IDF vectors.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/Benjamin-GitHub/Fake-News-Detector",
+        "Stars":  1
+    },
+    {
+        "Name":  "marimo-team/marimo",
+        "Description":  "A reactive notebook for Python ΓÇö run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
+        "Language":  "Python",
+        "Topics":  "artificial-intelligence,dag,data-science,data-visualization,dataflow,developer-tools,machine-learning,notebooks,pipeline,python,reactive,sql,web-app",
+        "URL":  "https://github.com/marimo-team/marimo",
+        "Stars":  19593
+    },
+    {
+        "Name":  "nocobase/nocobase",
+        "Description":  "NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.",
+        "Language":  "TypeScript",
+        "Topics":  "admin-dashboard,airtable,app-builder,crm,crud,developer-tools,erp,internal-tool,internal-tools,low-code,low-code-development-platform,lowcode,no-code,no-code-platform,nocode,project-management,salesforce,self-hosted,web-application,workflows",
+        "URL":  "https://github.com/nocobase/nocobase",
+        "Stars":  21782
+    },
+    {
+        "Name":  "wasp-lang/wasp",
+        "Description":  "The batteries-included full-stack framework for the AI era. Develop JS/TS web apps (React, Node.js, and Prisma) using declarative code that abstracts away complex full-stack features like auth, background jobs, RPC, email sending, end-to-end type safety, single-command deployment, and more.",
+        "Language":  "TypeScript",
+        "Topics":  "haskell,javascript,node,open-source,prisma,react,wasp,web-app",
+        "URL":  "https://github.com/wasp-lang/wasp",
+        "Stars":  18180
+    },
+    {
+        "Name":  "plotly/dash",
+        "Description":  "Data Apps \u0026 Dashboards for Python. No JavaScript Required.",
+        "Language":  "Python",
+        "Topics":  "bioinformatics,charting,dash,data-science,data-visualization,finance,flask,gui-framework,jupyter,modeling,plotly,plotly-dash,productivity,python,react,rstats,technical-computing,web-app",
+        "URL":  "https://github.com/plotly/dash",
+        "Stars":  24456
+    },
+    {
+        "Name":  "TryGhost/Ghost",
+        "Description":  "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+        "Language":  "JavaScript",
+        "Topics":  "blogging,cms,ghost,javascript,journalism,nodejs,publishing,web-application",
+        "URL":  "https://github.com/TryGhost/Ghost",
+        "Stars":  52010
+    },
+    {
+        "Name":  "oseiskar/black-hole",
+        "Description":  "WebGL simulation of a Schwarzschild black hole",
+        "Language":  "JavaScript",
+        "Topics":  "blackhole,raytracing,shader,simulation,webgl",
+        "URL":  "https://github.com/oseiskar/black-hole",
+        "Stars":  264
+    },
+    {
+        "Name":  "Python-simulation/Black-hole-simulation-using-python",
+        "Description":  "Non-spinning black hole simulation based on geodesics equation",
+        "Language":  "Python",
+        "Topics":  "black-hole,general-relativity,geodesics-equation,interpolation,python,schwarzschild,simulation",
+        "URL":  "https://github.com/Python-simulation/Black-hole-simulation-using-python",
+        "Stars":  129
+    },
+    {
+        "Name":  "LaveshJagwani/s4ds-task-1",
+        "Description":  "No description",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/LaveshJagwani/s4ds-task-1",
+        "Stars":  1
+    },
+    {
+        "Name":  "pjarnhus/DataScienceGym",
+        "Description":  "A series of little puzzles and training exercises aimed at improving python knowledge for data science",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "pandas,pandas-python,pandas-tutorial,python,python3,tutorial,tutorial-exercises",
+        "URL":  "https://github.com/pjarnhus/DataScienceGym",
+        "Stars":  10
+    },
+    {
+        "Name":  "theNetworkChuck/docker-mcp-tutorial",
+        "Description":  "Complete tutorial materials for building MCP servers with Docker - from NetworkChuck\u0027s video",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/theNetworkChuck/docker-mcp-tutorial",
+        "Stars":  1389
+    },
+    {
+        "Name":  "jlevy/the-art-of-command-line",
+        "Description":  "Master the command line, in one page",
+        "Language":  "Unknown",
+        "Topics":  "bash,documentation,linux,macos,unix,windows",
+        "URL":  "https://github.com/jlevy/the-art-of-command-line",
+        "Stars":  160305
+    },
+    {
+        "Name":  "Anupam-Kumar2505/djsce-resources",
+        "Description":  "No description",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/Anupam-Kumar2505/djsce-resources",
+        "Stars":  2
+    },
+    {
+        "Name":  "afshinea/stanford-cs-230-deep-learning",
+        "Description":  "VIP cheatsheets for Stanford\u0027s CS 230 Deep Learning",
+        "Language":  "Unknown",
+        "Topics":  "cheatsheet,convolutional-neural-networks,data-science,deep-learning,recurrent-neural-networks",
+        "URL":  "https://github.com/afshinea/stanford-cs-230-deep-learning",
+        "Stars":  6931
+    },
+    {
+        "Name":  "rasbt/machine-learning-book",
+        "Description":  "Code Repository for Machine Learning with PyTorch and Scikit-Learn",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "deep-learning,machine-learning,neural-networks,pytorch,scikit-learn",
+        "URL":  "https://github.com/rasbt/machine-learning-book",
+        "Stars":  5039
+    },
+    {
+        "Name":  "corralm/yc-scraper",
+        "Description":  "Γ£î∩╕ÅY Combinator directory scraper",
+        "Language":  "Python",
+        "Topics":  "dataset,kaggle,python,scrapy,selenium,webscraping,ycombinator",
+        "URL":  "https://github.com/corralm/yc-scraper",
+        "Stars":  94
+    },
+    {
+        "Name":  "ThomasJanssen-tech/Chatbot-with-RAG-and-LangChain",
+        "Description":  "Build a Chatbot which uses Retrieval Augmented Generation (RAG) to answer based on your own data!",
+        "Language":  "Python",
+        "Topics":  "chatbot,langchain,rag,retrieval-augmented-generation",
+        "URL":  "https://github.com/ThomasJanssen-tech/Chatbot-with-RAG-and-LangChain",
+        "Stars":  14
+    },
+    {
+        "Name":  "ag-ui-protocol/ag-ui",
+        "Description":  "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "Language":  "TypeScript",
+        "Topics":  "ag-ui-protocol,agent-frontend,agent-ui,agentic-workflow,ai-agents",
+        "URL":  "https://github.com/ag-ui-protocol/ag-ui",
+        "Stars":  12396
+    },
+    {
+        "Name":  "ageron/handson-mlp",
+        "Description":  "A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, PyTorch, and Hugging Face libraries.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/ageron/handson-mlp",
+        "Stars":  1130
+    },
+    {
+        "Name":  "cesarmaximus/Machine-Learning-study-plan",
+        "Description":  "A complete daily plan for studying to become a machine learning engineer / from a Vietnamien software engineer",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/cesarmaximus/Machine-Learning-study-plan",
+        "Stars":  1
+    },
+    {
+        "Name":  "shashankbhat2/lms",
+        "Description":  "A complete Learning Management System with Student, Teacher and Admin dashboards built using React, react-redux-firebase, reactstrap and Firebase.",
+        "Language":  "JavaScript",
+        "Topics":  "firebase,react,react-redux-firebase",
+        "URL":  "https://github.com/shashankbhat2/lms",
+        "Stars":  35
+    },
+    {
+        "Name":  "x1xhlol/system-prompts-and-models-of-ai-tools",
+        "Description":  "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia \u0026 v0. (And other Open Sourced) System Prompts, Internal Tools \u0026 AI Models",
+        "Language":  "Unknown",
+        "Topics":  "ai,bolt,cluely,copilot,cursor,cursorai,devin,github-copilot,lovable,open-source,perplexity,replit,system-prompts,trae,trae-ai,trae-ide,v0,vscode,windsurf,windsurf-ai",
+        "URL":  "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+        "Stars":  130230
+    },
+    {
+        "Name":  "mikeroyal/Machine-Learning-Guide",
+        "Description":  "Machine learning Guide. Learn all about Machine Learning Tools, Libraries, Frameworks, Large Language Models (LLMs), and Training Models.",
+        "Language":  "Python",
+        "Topics":  "artificial-neural-networks,aws-sagemaker,deep-learning,generative-ai,gpt-3,gpt-4,gpt4all,image-classification,image-processing,jax,llms,machine-learning-library,machine-learning-models,machinelearning,machinelearning-python,python,pytorch,scikit-learn,scikitlearn-machine-learning,support-vector-machines",
+        "URL":  "https://github.com/mikeroyal/Machine-Learning-Guide",
+        "Stars":  693
+    },
+    {
+        "Name":  "Aemon-Algiz/DatesetExtraction",
+        "Description":  "Example code for extracting Q\u0026A datasets from LLM\u0027s",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/Aemon-Algiz/DatesetExtraction",
+        "Stars":  82
+    },
+    {
+        "Name":  "Marktechpost/ai-introductory-course",
+        "Description":  "The Marktechpost AI Introductory Course is a basic Artificial Intelligence (AI) Intro Course comprised of four video lecture videos. This course will cover what AI is, how it works, and why AI is taking off now.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/Marktechpost/ai-introductory-course",
+        "Stars":  11
+    },
+    {
+        "Name":  "Marktechpost/Top-AI-Blogs-Newsletters",
+        "Description":  "Here is a live list of Resources that could be helpful for you to keep up with the latest AI developments, frameworks, and model releasesΓÇöespecially the ones not making mainstream headlines",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/Marktechpost/Top-AI-Blogs-Newsletters",
+        "Stars":  10
+    },
+    {
+        "Name":  "Marktechpost/AI-Guides-Reports",
+        "Description":  "List of Reports and Guides related to AI, Machine Learning, Agentic AI, AI Agents, Deep Learning, LLMs etc",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/Marktechpost/AI-Guides-Reports",
+        "Stars":  12
+    },
+    {
+        "Name":  "Marktechpost/AI-Concepts",
+        "Description":  "Various AI Related Concepts Directory",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/Marktechpost/AI-Concepts",
+        "Stars":  28
+    },
+    {
+        "Name":  "Marktechpost/AI-Tutorial-Codes-Included",
+        "Description":  "Codes/Notebooks for AI Projects",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "aiagents,artificial-intelligence,data-science,dataengineering,deep-learning,machine-learning,neural-network",
+        "URL":  "https://github.com/Marktechpost/AI-Tutorial-Codes-Included",
+        "Stars":  2132
+    },
+    {
+        "Name":  "aishwaryanr/awesome-generative-ai-guide",
+        "Description":  "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+        "Language":  "HTML",
+        "Topics":  "awesome,awesome-list,generative-ai,interview-questions,large-language-models,llms,notebook-jupyter,vision-and-language",
+        "URL":  "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+        "Stars":  25259
+    },
+    {
+        "Name":  "nishant-Tiwari24/skills-for-hackathon",
+        "Description":  "This repository serves as a comprehensive guide to hackathons, offering valuable insights and resources for both beginners and experienced participants. It covers the essentials, such as how to find upcoming hackathons, tips for selecting the right event, and detailed preparation strategies.",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/nishant-Tiwari24/skills-for-hackathon",
+        "Stars":  657
+    },
+    {
+        "Name":  "yichuan-w/LEANN",
+        "Description":  "[MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+        "Language":  "Python",
+        "Topics":  "ai,faiss,gpt-oss,langchain,llama-index,llm,localstorage,offline-first,ollama,privacy,python,rag,retrieval-augmented-generation,vector-database,vector-search,vectors",
+        "URL":  "https://github.com/yichuan-w/LEANN",
+        "Stars":  10291
+    },
+    {
+        "Name":  "ghuntley/how-to-build-a-coding-agent",
+        "Description":  "A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode.",
+        "Language":  "Go",
+        "Topics":  "agent,ai,cursor,tutorial,workshop",
+        "URL":  "https://github.com/ghuntley/how-to-build-a-coding-agent",
+        "Stars":  5254
+    },
+    {
+        "Name":  "TencentCloudADP/youtu-agent",
+        "Description":  "A simple yet powerful agent framework that delivers with open-source models",
+        "Language":  "Python",
+        "Topics":  "agent-framework,agents,openai-agents,python",
+        "URL":  "https://github.com/TencentCloudADP/youtu-agent",
+        "Stars":  4471
+    },
+    {
+        "Name":  "cruip/open-react-template",
+        "Description":  "A free React / Next.js landing page template designed to showcase open source projects, SaaS products, online services, and more. Made by",
+        "Language":  "TypeScript",
+        "Topics":  "free,landing,landing-page,nextjs,page,react,reactjs,startup,startups,template,templates",
+        "URL":  "https://github.com/cruip/open-react-template",
+        "Stars":  4599
+    },
+    {
+        "Name":  "dheerajpoonia29/athleteInjuryRecoveryPrediction-projectMlSih",
+        "Description":  "Machine learning-based application for predicting the injury recovery time period a sports person based on injury type and diet plan.",
+        "Language":  "HTML",
+        "Topics":  "machine-learning-projects,regression-model,smart-india-hackathon,svm-classifier,teamwork",
+        "URL":  "https://github.com/dheerajpoonia29/athleteInjuryRecoveryPrediction-projectMlSih",
+        "Stars":  41
+    },
+    {
+        "Name":  "microsoft/Web-Dev-For-Beginners",
+        "Description":  "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+        "Language":  "JavaScript",
+        "Topics":  "css,curriculum,education,html,javascript,learning,microsoft-for-beginners,tutorials",
+        "URL":  "https://github.com/microsoft/Web-Dev-For-Beginners",
+        "Stars":  95410
+    },
+    {
+        "Name":  "Lamaq-Mujpurwala/mcp-agent-sandbox",
+        "Description":  "A hands-on starter project to build and test local tools using the Model Context Protocol (MCP) with Python, LangChain, and Claude. Includes a complete guide to setting up an MCP server-client architecture and integrating LLMs for real-world use cases.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/Lamaq-Mujpurwala/mcp-agent-sandbox",
+        "Stars":  3
+    },
+    {
+        "Name":  "TurboML-Inc/mcp-starter",
+        "Description":  "Starter code to add MCPs to Puch AI #BuildWithPuch",
+        "Language":  "TypeScript",
+        "Topics":  "mcp,puch-ai",
+        "URL":  "https://github.com/TurboML-Inc/mcp-starter",
+        "Stars":  60
+    },
+    {
+        "Name":  "PacktPublishing/The-Kaggle-Book",
+        "Description":  "Code Repository for The Kaggle Book, Published by Packt Publishing",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/PacktPublishing/The-Kaggle-Book",
+        "Stars":  2320
+    },
+    {
+        "Name":  "Prat011/free-cluely",
+        "Description":  "Cluely - The invisible desktop assistant that provides real-time insights, answers, and support during meetings, interviews, presentations, and professional conversations.",
+        "Language":  "TypeScript",
+        "Topics":  "ai-note-taking-app,cheating,cluely,fireflies,granola,interview-coder,leetcode,notetaker",
+        "URL":  "https://github.com/Prat011/free-cluely",
+        "Stars":  1321
+    },
+    {
+        "Name":  "davidkimai/Context-Engineering",
+        "Description":  "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" ΓÇö Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/davidkimai/Context-Engineering",
+        "Stars":  8549
+    },
+    {
+        "Name":  "juspay/hyperswitch",
+        "Description":  "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+        "Language":  "Rust",
+        "Topics":  "beginner-friendly,featured,finance,hacktoberfest,high-performance,open-source,orchestration,payments,postgresql,redis,restful-api,rust,sdk,works-with-react",
+        "URL":  "https://github.com/juspay/hyperswitch",
+        "Stars":  41103
+    },
+    {
+        "Name":  "pathwaycom/llm-app",
+        "Description":  "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. ≡ƒÉ│Docker-friendly.ΓÜíAlways in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "chatbot,hugging-face,llm,llm-local,llm-prompting,llm-security,llmops,machine-learning,open-ai,pathway,rag,real-time,retrieval-augmented-generation,vector-database,vector-index",
+        "URL":  "https://github.com/pathwaycom/llm-app",
+        "Stars":  56160
+    },
+    {
+        "Name":  "pathwaycom/pathway",
+        "Description":  "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+        "Language":  "Python",
+        "Topics":  "batch-processing,data-analytics,data-pipelines,data-processing,dataflow,etl,etl-framework,iot-analytics,kafka,machine-learning-algorithms,pathway,python,real-time,rust,stream-processing,streaming,time-series-analysis",
+        "URL":  "https://github.com/pathwaycom/pathway",
+        "Stars":  59430
+    },
+    {
+        "Name":  "mrdbourke/zero-to-mastery-ml",
+        "Description":  "All course materials for the Zero to Mastery Machine Learning and Data Science course.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "data-science,deep-learning,machine-learning",
+        "URL":  "https://github.com/mrdbourke/zero-to-mastery-ml",
+        "Stars":  3630
+    },
+    {
+        "Name":  "SmayanKulkarni/AI-and-ML-Course",
+        "Description":  "No description",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/SmayanKulkarni/AI-and-ML-Course",
+        "Stars":  2
+    },
+    {
+        "Name":  "Zie619/n8n-workflows",
+        "Description":  "all of the workflows of n8n i could find (also from the site itself)",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/Zie619/n8n-workflows",
+        "Stars":  52797
+    },
+    {
+        "Name":  "nishant-Tiwari24/coding-resources",
+        "Description":  "No description",
+        "Language":  "Unknown",
+        "Topics":  "",
+        "URL":  "https://github.com/nishant-Tiwari24/coding-resources",
+        "Stars":  3599
+    },
+    {
+        "Name":  "mar-antaya/2025_f1_predictions",
+        "Description":  "No description",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/mar-antaya/2025_f1_predictions",
+        "Stars":  557
+    },
+    {
+        "Name":  "DS-AI-GATE/dsai-gate",
+        "Description":  "A Repository consisting resources primarily of the Gate DA and AI",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/DS-AI-GATE/dsai-gate",
+        "Stars":  1758
+    },
+    {
+        "Name":  "Mister2005/Automatic-Data-Visualizer-AI-Agent",
+        "Description":  "No description",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/Mister2005/Automatic-Data-Visualizer-AI-Agent",
+        "Stars":  3
+    },
+    {
+        "Name":  "subinsk/mern",
+        "Description":  "No description",
+        "Language":  "JavaScript",
+        "Topics":  "",
+        "URL":  "https://github.com/subinsk/mern",
+        "Stars":  1
+    },
+    {
+        "Name":  "google/eng-edu",
+        "Description":  "No description",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/google/eng-edu",
+        "Stars":  751
+    },
+    {
+        "Name":  "ipython/ipython",
+        "Description":  "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc.",
+        "Language":  "Python",
+        "Topics":  "closember,data-science,hacktoberfest,ipython,jupyter,notebook,python,repl,spec-0",
+        "URL":  "https://github.com/ipython/ipython",
+        "Stars":  16685
+    },
+    {
+        "Name":  "jrjohansson/scientific-python-lectures",
+        "Description":  "Lectures on scientific computing with python, as IPython notebooks.",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/jrjohansson/scientific-python-lectures",
+        "Stars":  3628
+    },
+    {
+        "Name":  "Varal7/ml-tutorial",
+        "Description":  "Introduction to ML packages for the 6.86x course",
+        "Language":  "Jupyter Notebook",
+        "Topics":  "",
+        "URL":  "https://github.com/Varal7/ml-tutorial",
+        "Stars":  402
+    },
+    {
+        "Name":  "yorukot/superfile",
+        "Description":  "Pretty fancy and modern terminal file manager",
+        "Language":  "Go",
+        "Topics":  "bubbletea,cli,file-manager,filemanager,filesystem,golang,hacktoberfest,linux-app,terminal-app,terminal-based,tui",
+        "URL":  "https://github.com/yorukot/superfile",
+        "Stars":  16876
+    },
+    {
+        "Name":  "LeCoupa/awesome-cheatsheets",
+        "Description":  "≡ƒæ⌐ΓÇì≡ƒÆ╗≡ƒæ¿ΓÇì≡ƒÆ╗ Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
+        "Language":  "JavaScript",
+        "Topics":  "backend,bash,cheatsheet,cheatsheets,database,django,docker,feathersjs,frontend,javascript,kubernetes,language,nodejs,php,programming-language,redis,sailsjs,vim,vuejs,xcode",
+        "URL":  "https://github.com/LeCoupa/awesome-cheatsheets",
+        "Stars":  45474
+    },
+    {
+        "Name":  "prakhar1989/awesome-courses",
+        "Description":  ":books: List of awesome university courses for learning Computer Science!",
+        "Language":  "Unknown",
+        "Topics":  "awesome,awesome-list,computer-science,courses",
+        "URL":  "https://github.com/prakhar1989/awesome-courses",
+        "Stars":  66964
+    },
+    {
+        "Name":  "tensorflow/tensor2tensor",
+        "Description":  "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+        "Language":  "Python",
+        "Topics":  "deep-learning,machine-learning,machine-translation,reinforcement-learning,tpu",
+        "URL":  "https://github.com/tensorflow/tensor2tensor",
+        "Stars":  17053
+    },
+    {
+        "Name":  "deepseek-ai/DeepSeek-V3",
+        "Description":  "No description",
+        "Language":  "Python",
+        "Topics":  "",
+        "URL":  "https://github.com/deepseek-ai/DeepSeek-V3",
+        "Stars":  102055
+    },
+    {
+        "Name":  "31b4/Leetcode-Premium-Bypass",
+        "Description":  "Leetcode Premium Unlocker 2024",
+        "Language":  "JavaScript",
+        "Topics":  "leetcode,leetcode-premium,leetcode-questions",
+        "URL":  "https://github.com/31b4/Leetcode-Premium-Bypass",
+        "Stars":  3403
+    }
+]

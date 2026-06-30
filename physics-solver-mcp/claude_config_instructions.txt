@@ -1,0 +1,79 @@
+CLAUDE DESKTOP CONFIGURATION INSTRUCTIONS
+==========================================
+
+Step 1: Locate your Claude Desktop config file
+-----------------------------------------------
+The config file is located at:
+%APPDATA%\Claude\claude_desktop_config.json
+
+Full path (replace <YourUsername> with your actual username):
+C:\Users\<YourUsername>\AppData\Roaming\Claude\claude_desktop_config.json
+
+Step 2: Edit the config file
+-----------------------------
+Open the file in a text editor and add this configuration:
+
+{
+  "mcpServers": {
+    "physics-solver": {
+      "command": "python",
+      "args": [
+        "d:\\Programming\\physics-solver-mcp\\physics_server.py"
+      ]
+    }
+  }
+}
+
+IMPORTANT NOTES:
+- Use double backslashes (\\) in the path for JSON
+- If the file already has other MCP servers, add the physics-solver entry inside the existing "mcpServers" object
+- Make sure the JSON is valid (you can use jsonlint.com to validate)
+
+Example with multiple servers:
+{
+  "mcpServers": {
+    "physics-solver": {
+      "command": "python",
+      "args": [
+        "d:\\Programming\\physics-solver-mcp\\physics_server.py"
+      ]
+    },
+    "other-server": {
+      "command": "node",
+      "args": ["path\\to\\other\\server.js"]
+    }
+  }
+}
+
+Step 3: Restart Claude Desktop
+-------------------------------
+1. Completely quit Claude Desktop (check system tray)
+2. Start Claude Desktop again
+
+Step 4: Verify it's working
+----------------------------
+In Claude Desktop, try asking:
+"Calculate the kinetic energy of an 800 kg car moving at 25 m/s"
+
+You should see Claude use the kinetic_energy tool to calculate the answer.
+
+TROUBLESHOOTING
+===============
+
+If tools don't appear:
+- Check Claude Desktop logs at: %APPDATA%\Claude\logs
+- Verify the JSON syntax is correct
+- Make sure Python is in your PATH
+- Try using the full path to python.exe instead of just "python"
+
+Example with full Python path:
+{
+  "mcpServers": {
+    "physics-solver": {
+      "command": "C:\\Users\\admin\\anaconda3\\python.exe",
+      "args": [
+        "d:\\Programming\\physics-solver-mcp\\physics_server.py"
+      ]
+    }
+  }
+}

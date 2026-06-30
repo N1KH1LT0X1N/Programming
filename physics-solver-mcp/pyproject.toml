@@ -1,12 +1,16 @@
 [project]
 name = "physics-solver-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Physics MCP server providing physics calculation tools"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
-
-[tool.uv.workspace]
-members = [
-    "physics-solver-mcp",
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=0.1.0",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+physics-server = "physics_server:main"

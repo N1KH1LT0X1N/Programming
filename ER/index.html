@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI ER→Mermaid Generator (MVP)</title>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa5b1; --accent:#7dd3fc;
+      --glass: rgba(255,255,255,0.03);
+    }
+    html,body{height:100%; margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+    body{background: linear-gradient(180deg,#071026 0%, #081426 100%); color:#e6eef6; padding:20px;}
+    .container{max-width:1100px; margin:0 auto; display:grid; grid-template-columns: 1fr 480px; gap:18px;}
+    header{grid-column:1/-1; display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;}
+    h1{font-size:18px; margin:0;}
+    p.lead{margin:4px 0 0; color:var(--muted); font-size:13px;}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:14px; border-radius:12px; box-shadow: 0 6px 20px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03);}
+    .left{display:flex; flex-direction:column; gap:12px;}
+    label{font-size:13px; color:var(--muted);}
+    textarea,input[type="text"]{width:100%; background:transparent; color:inherit; border:1px dashed rgba(255,255,255,0.04); padding:10px; border-radius:8px; min-height:84px; resize:vertical; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;}
+    .row{display:flex; gap:8px;}
+    button{background:linear-gradient(90deg,var(--accent), #60a5fa); color:#022029; padding:8px 10px; border-radius:9px; border:none; cursor:pointer; font-weight:600;}
+    button.ghost{background:transparent; color:var(--accent); border:1px solid rgba(125,211,252,0.12);}
+    .small{font-size:13px; padding:6px 8px;}
+    .controls{display:flex; gap:8px; align-items:center; flex-wrap:wrap;}
+    #preview{overflow:auto; min-height:200px; background:var(--glass); border-radius:8px; padding:10px;}
+    .hint{font-size:12px; color:var(--muted);}
+    .actions{display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;}
+    .right{display:flex; flex-direction:column; gap:12px;}
+    .meta{display:flex; justify-content:space-between; align-items:center; gap:8px;}
+    .footer{grid-column:1/-1; color:var(--muted); font-size:13px; margin-top:10px;}
+    .kbd{background:#021023; padding:4px 8px; border-radius:6px; border:1px solid rgba(255,255,255,0.02); font-family:ui-monospace; font-size:12px;}
+    .sample-list{display:flex; flex-direction:column; gap:6px;}
+    .sample{background:linear-gradient(90deg, rgba(125,211,252,0.03), transparent); padding:8px; border-radius:8px; cursor:pointer; font-size:13px; color:var(--muted);}
+    .flex-between{display:flex; justify-content:space-between; align-items:center;}
+    .status{font-size:13px; color:var(--muted);}
+    .input-row{display:flex; gap:8px; align-items:center;}
+    @media (max-width:1000px){
+      .container{grid-template-columns: 1fr; padding-bottom:60px;}
+      .right{order:2;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>AI ER → Mermaid (MVP)</h1>
+        <p class="lead">Paste an exam question, get a Mermaid <span class="kbd">erDiagram</span> and render it instantly. Built for study & exam prep.</p>
+      </div>
+      <div class="meta">
+        <div class="status" id="status">Idle</div>
+        <div style="width:10px"></div>
+      </div>
+    </header>
+
+    <section class="card left">
+      <div>
+        <label for="question">Exam Question</label>
+        <textarea id="question" placeholder='e.g. "Design an ER diagram for a Library Management System: members borrow books; books have authors; each borrow records date and due date."' rows="5"></textarea>
+      </div>
+
+      <div class="row">
+        <div style="flex:1">
+          <label for="apikey">OpenAI API Key (optional for local testing)</label>
+          <input id="apikey" type="text" placeholder="Paste a temporary key to test calling OpenAI (NOT for production)"/>
+          <div class="hint">If left empty, the app will use a built-in rule-based extractor.</div>
+        </div>
+        <div style="width:170px">
+          <label>Model</label>
+          <select id="model" style="width:100%; padding:10px; border-radius:8px; background:transparent; color:inherit;">
+            <option>gpt-4o-mini</option>
+            <option>gpt-4o</option>
+            <option selected>gpt-4o-mini</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="genBtn">Generate Mermaid + Render</button>
+        <button id="parseLocalBtn" class="ghost small">Use Local Parser (no API)</button>
+        <button id="clearBtn" class="ghost small">Clear</button>
+        <div style="flex:1"></div>
+        <div class="hint">Tip: ask the model to <strong>only</strong> return the Mermaid code (no explanation).</div>
+      </div>
+
+      <div style="display:flex; gap:12px; margin-top:6px;">
+        <div style="flex:1">
+          <label for="mermaid">Mermaid ER Code (editable)</label>
+          <textarea id="mermaid" rows="10">erDiagram
+  STUDENT {
+    int student_id PK
+    string name
+    string email
+  }
+  COURSE {
+    int course_id PK
+    string title
+    int credits
+  }
+  ENROLLMENT {
+    int enrollment_id PK
+    date enrollment_date
+  }
+
+  STUDENT ||--o{ ENROLLMENT : enrolls
+  COURSE  ||--o{ ENROLLMENT : contains</textarea>
+        </div>
+
+        <div style="width:200px; display:flex; flex-direction:column; gap:8px;">
+          <label>Quick Samples</label>
+          <div class="sample-list card" style="padding:8px; overflow:auto; max-height:220px;">
+            <div class="sample" data-q="Design an ER diagram for a Library: members borrow books, books have authors, staff manages inventory.">Library system</div>
+            <div class="sample" data-q="ER for Hospital: Doctors treat Patients, Patients have Appointments, Prescriptions link Doctors and Patients.">Hospital system</div>
+            <div class="sample" data-q="University: Students enroll in Courses, Professors teach Courses, Departments have many Professors.">University</div>
+            <div class="sample" data-q="Online store: Customers place Orders, Orders contain Products, Products belong to Categories.">E-commerce</div>
+            <div class="sample" data-q="Car rental: Customers rent Vehicles, each Rental has start/end dates, Vehicles belong to a Fleet.">Car Rental</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="renderBtn" class="small ghost">Re-render Diagram</button>
+        <button id="copyCode" class="small">Copy Mermaid</button>
+        <button id="downloadMmd" class="small ghost">Download .mmd</button>
+        <button id="exportSvg" class="small">Download SVG</button>
+        <button id="exportPng" class="small">Download PNG</button>
+      </div>
+    </section>
+
+    <aside class="card right">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <strong>Rendered Diagram</strong>
+          <div class="hint">Mermaid.js preview</div>
+        </div>
+        <div class="hint">Mermaid v10</div>
+      </div>
+
+      <div id="preview" style="min-height:320px; margin-top:10px;"></div>
+
+      <div style="margin-top:10px; display:flex; gap:8px;">
+        <button id="zoomIn" class="small ghost">Zoom In</button>
+        <button id="zoomOut" class="small ghost">Zoom Out</button>
+        <button id="fit" class="small ghost">Fit</button>
+        <div style="flex:1"></div>
+        <div class="hint">Scale: <span id="scaleVal">100%</span></div>
+      </div>
+    </aside>
+
+    <div class="footer">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>Built for studying ER design • Keep API keys server-side for production.</div>
+        <div>Made with ❤️ • Ask me to extend with auth/export server or templates</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mermaid module -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+    // Initialize mermaid
+    mermaid.initialize({ startOnLoad: false, securityLevel: "loose", theme: "default" });
+
+    // UI refs
+    const questionEl = document.getElementById('question');
+    const mermaidEl = document.getElementById('mermaid');
+    const previewEl = document.getElementById('preview');
+    const genBtn = document.getElementById('genBtn');
+    const renderBtn = document.getElementById('renderBtn');
+    const parseLocalBtn = document.getElementById('parseLocalBtn');
+    const statusEl = document.getElementById('status');
+    const apiKeyEl = document.getElementById('apikey');
+    const modelEl = document.getElementById('model');
+    const copyBtn = document.getElementById('copyCode');
+    const downloadMmdBtn = document.getElementById('downloadMmd');
+    const exportSvgBtn = document.getElementById('exportSvg');
+    const exportPngBtn = document.getElementById('exportPng');
+    const clearBtn = document.getElementById('clearBtn');
+    const samples = document.querySelectorAll('.sample');
+    const scaleVal = document.getElementById('scaleVal');
+    let scale = 1;
+
+    function setStatus(t){ statusEl.textContent = t; }
+
+    // Basic local rule-based parser (fallback)
+    function localParseToMermaid(question){
+      // Very simple extractor:
+      // - pick nouns (split by common separators)
+      // - pick relationships from verbs like 'enroll', 'borrow', 'assign', 'treat', 'place', 'contain'
+      // This is intentionally primitive; LLM gives much better results.
+      const low = question.toLowerCase();
+      // naive common nouns scanning:
+      const nouns = [];
+      const potentialEntities = ['student','course','book','author','member','library','doctor','patient','appointment','order','product','customer','employee','department','professor','enrollment','rental','vehicle','category'];
+      potentialEntities.forEach(e=>{
+        if(low.includes(e)) nouns.push(e.toUpperCase());
+      });
+      if(nouns.length===0){ // fallback: pick capitalized words as nouns
+        (question.match(/\b[A-Z][a-zA-Z]+\b/g) || []).forEach(w=>nouns.push(w.toUpperCase()));
+      }
+      if(nouns.length===0){
+        nouns.push('ENTITY');
+      }
+
+      // Build mermaid skeleton
+      let code = 'erDiagram\n';
+      nouns.forEach((n,i)=>{
+        code += `  ${n} {\n    int ${n.toLowerCase()}_id PK\n    string name\n  }\n`;
+      });
+
+      // naive relationships: if question contains 'many' or 'many-to-many' or 'each ... many'
+      if(/many/i.test(question) || /many-to-many|m:n/i.test(question)){
+        if(nouns.length>=2){
+          // make a bridge table
+          const a = nouns[0], b = nouns[1], bridge = `${a}_${b}_LINK`;
+          code += `  ${bridge} {\n    int ${bridge.toLowerCase()}_id PK\n    date created_at\n  }\n\n  ${a} ||--o{ ${bridge} : has\n  ${b} ||--o{ ${bridge} : has\n`;
+        }
+      } else {
+        if(nouns.length>=2){
+          code += `\n  ${nouns[0]} ||--o{ ${nouns[1]} : related_to\n`;
+        }
+      }
+
+      return code;
+    }
+
+    // Helper: render mermaid code into preview
+    async function renderMermaid(code){
+      try {
+        previewEl.innerHTML = '';
+        // mermaid.render returns svg string when using the API
+        const uniqueId = 'm' + Math.random().toString(36).slice(2,9);
+        // mermaid.render returns {svg, bindFunctions}
+        const { svg } = await mermaid.render(uniqueId, code);
+        previewEl.innerHTML = svg;
+        applyScale();
+        setStatus('Rendered');
+        return svg;
+      } catch(err){
+        previewEl.innerHTML = `<pre style="color:#ffb4b4">${String(err)}</pre>`;
+        setStatus('Render error');
+        console.error(err);
+        throw err;
+      }
+    }
+
+    // BUTTONS
+    renderBtn.addEventListener('click', async ()=> {
+      try {
+        setStatus('Rendering...');
+        await renderMermaid(mermaidEl.value);
+      } catch(e){}
+    });
+
+    genBtn.addEventListener('click', async ()=>{
+      const question = questionEl.value.trim();
+      if(!question){ alert('Please enter an exam question.'); return; }
+      const apikey = apiKeyEl.value.trim();
+
+      setStatus('Generating mermaid code...');
+      if(apikey){
+        try {
+          // Call OpenAI Chat Completions
+          const model = modelEl.value || 'gpt-4o-mini';
+          // Strict system prompt to return ONLY mermaid code
+          const systemPrompt = `You are an assistant that converts exam questions into MERMAID ER DIAGRAMS. Reply with ONLY valid Mermaid code using 'erDiagram' (no explanation, no extra text). Use PK/attributes where appropriate. If there are many-to-many relations, create a join entity. Keep it concise.`;
+
+          const userPrompt = `Question: ${question}\n\nReturn: Mermaid erDiagram code only.`;
+
+          setStatus('Calling OpenAI...');
+
+          const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+            method:'POST',
+            headers:{
+              'Content-Type':'application/json',
+              'Authorization':'Bearer ' + apikey
+            },
+            body: JSON.stringify({
+              model,
+              messages: [
+                { role: 'system', content: systemPrompt },
+                { role: 'user', content: userPrompt }
+              ],
+              max_tokens: 900,
+              temperature: 0.0
+            })
+          });
+
+          if(!resp.ok){
+            const text = await resp.text();
+            throw new Error('OpenAI error: ' + resp.status + ' ' + text);
+          }
+
+          const data = await resp.json();
+          // pick first choice
+          let content = data.choices?.[0]?.message?.content || data.choices?.[0]?.text || '';
+          // strip markdown fences if any
+          content = content.replace(/^```(?:mermaid)?\n/i, '').replace(/```$/,'').trim();
+
+          mermaidEl.value = content;
+          await renderMermaid(content);
+          setStatus('Generated & rendered');
+        } catch(err){
+          console.error(err);
+          alert('OpenAI call failed. Falling back to local parser.\n\n' + err.message);
+          const fallback = localParseToMermaid(question);
+          mermaidEl.value = fallback;
+          await renderMermaid(fallback);
+          setStatus('Generated locally (fallback)');
+        }
+      } else {
+        // local parse
+        const fallback = localParseToMermaid(question);
+        mermaidEl.value = fallback;
+        await renderMermaid(fallback);
+        setStatus('Generated locally (no API key)');
+      }
+    });
+
+    parseLocalBtn.addEventListener('click', async ()=>{
+      const q = questionEl.value.trim();
+      if(!q){ alert('Write a question to parse.'); return; }
+      const fallback = localParseToMermaid(q);
+      mermaidEl.value = fallback;
+      await renderMermaid(fallback);
+      setStatus('Local parse rendered');
+    });
+
+    // Sample clicks
+    samples.forEach(s=>{
+      s.addEventListener('click', ()=>{
+        questionEl.value = s.dataset.q;
+      });
+    });
+
+    copyBtn.addEventListener('click', async ()=>{
+      try{
+        await navigator.clipboard.writeText(mermaidEl.value);
+        setStatus('Mermaid code copied to clipboard');
+      }catch(e){
+        alert('Copy failed: ' + e);
+      }
+    });
+
+    downloadMmdBtn.addEventListener('click', ()=>{
+      const blob = new Blob([mermaidEl.value], {type:'text/plain'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'diagram.mmd'; document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+      setStatus('Downloaded .mmd file');
+    });
+
+    exportSvgBtn.addEventListener('click', async ()=>{
+      try{
+        const svg = await renderMermaid(mermaidEl.value); // also updates preview
+        const blob = new Blob([svg], {type:'image/svg+xml;charset=utf-8'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = 'diagram.svg'; document.body.appendChild(a); a.click(); a.remove();
+        URL.revokeObjectURL(url);
+        setStatus('SVG downloaded');
+      }catch(e){
+        console.error(e);
+      }
+    });
+
+    exportPngBtn.addEventListener('click', async ()=>{
+      try{
+        const { svg } = await mermaid.render('tmp-' + Math.random().toString(36).slice(2,8), mermaidEl.value);
+        // create image from svg
+        const svgBlob = new Blob([svg], {type:'image/svg+xml;charset=utf-8'});
+        const url = URL.createObjectURL(svgBlob);
+        const img = new Image();
+        img.onload = ()=>{
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width * 1.25;
+          canvas.height = img.height * 1.25;
+          const ctx = canvas.getContext('2d');
+          ctx.fillStyle = '#fff';
+          ctx.fillRect(0,0,canvas.width,canvas.height);
+          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+          canvas.toBlob((blob)=>{
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'diagram.png';
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            URL.revokeObjectURL(url);
+            setStatus('PNG downloaded');
+          }, 'image/png');
+        };
+        img.onerror = (e)=>{ console.error(e); alert('Could not convert to PNG.'); };
+        img.src = url;
+      }catch(e){
+        console.error(e);
+        alert('Export to PNG failed: ' + e);
+      }
+    });
+
+    clearBtn.addEventListener('click', ()=>{ questionEl.value=''; mermaidEl.value=''; previewEl.innerHTML=''; setStatus('Cleared'); });
+
+    // zoom controls
+    document.getElementById('zoomIn').addEventListener('click', ()=>{ scale *= 1.1; applyScale(); });
+    document.getElementById('zoomOut').addEventListener('click', ()=>{ scale /= 1.1; applyScale(); });
+    document.getElementById('fit').addEventListener('click', ()=>{ scale = 1; applyScale(); });
+
+    function applyScale(){
+      const svg = previewEl.querySelector('svg');
+      if(svg){
+        svg.style.transformOrigin = '0 0';
+        svg.style.transform = `scale(${scale})`;
+        scaleVal.textContent = Math.round(scale*100) + '%';
+      }
+    }
+
+    // initial render of example
+    (async ()=>{ try { await renderMermaid(mermaidEl.value); setStatus('Ready'); } catch(e){ setStatus('Ready (render failed)'); } })();
+
+    // keyboard shortcut: Ctrl+Enter to generate
+    window.addEventListener('keydown', (e)=>{
+      if((e.ctrlKey || e.metaKey) && e.key === 'Enter'){
+        genBtn.click();
+      }
+    });
+  </script>
+</body>
+</html>

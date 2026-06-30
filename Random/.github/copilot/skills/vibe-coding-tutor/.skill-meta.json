@@ -1,0 +1,27 @@
+{
+    "name": "vibe-coding-tutor",
+    "version": "2.0.0",
+    "description": "AI skill that teaches professional coding via MCQs, TDD enforcement, and systematic debugging protocols.",
+    "author": "Vibe Coding Team",
+    "license": "MIT",
+    "triggers": [
+        "code generation",
+        "function creation",
+        "file creation",
+        "project scaffolding",
+        "debugging",
+        "test creation"
+    ],
+    "dependencies": [],
+    "persistence": {
+        "folder": ".vibe",
+        "files": [
+            "task_plan.md",
+            "findings.md",
+            "progress.md",
+            "user_profile.json",
+            "plans/",
+            "debug_sessions/"
+        ]
+    }
+}
